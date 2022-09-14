@@ -1,0 +1,121 @@
+
+
+
+:root {
+	--color1: #0f0f1e;
+	--color2: #20202f;
+	--color3: #ffbf00;
+	--color4: #dddddd;
+	--color5: #ffffff;
+}
+
+html {
+	font-size: 10px;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: var(--color2);
+}
+
+h2 {
+	text-align: center;
+	font-size: 3rem;
+	color: var(--color4);
+}
+
+p {
+	text-align: center;
+	font-size: 2rem;
+	color: var(--color4);
+}
+
+img {
+	margin: 0 auto;
+	display: block;
+}
+
+header {
+	background-color: var(--color1);
+	padding: 50px 20px;
+}
+
+header h1 {
+	color: var(--color3);
+	text-align: center;
+	font-size: 3.2rem;
+	font-family: 'Press Start 2P', cursive;
+}
+
+main {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.result-div {
+	height: 80px;
+	margin-top: 30px;
+}
+
+.result-div h2 {
+	margin-top: 20px;
+}
+
+.result-div p {
+	margin-top: 5px;
+}
+
+.players-div {
+	width: 100%;
+	height: 180px;
+	display: flex;
+}
+
+.players-div .player {
+	width: 100%;
+}
+
+.players-div .player p {
+	font-size: 2.5rem;
+	font-weight: 600;
+	text-align: center;
+	margin: 10px;
+	color: var(--color5);
+}
+
+.players-div .player img {
+	margin-top: 30px;
+	width: 80px;
+}
+
+.weapons-div {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+.weapons-div .weapon {
+	width: 100px;
+	padding: 10px;
+	background-color: var(--color1);
+	cursor: pointer;
+	margin: 0 15px;
+	border-radius: 10px;	
+}
+
+.weapons-div .weapon img {
+	width: 60px;
+}
+
+.weapons-div .weapon h3 {
+	text-align: center;
+	font-size: 2rem;
+	color: var(--color5);
+	margin-top: 10px;
+}
