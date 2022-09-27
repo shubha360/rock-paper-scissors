@@ -1,7 +1,7 @@
 # rock-paper-scissors
 Rock paper scissor game in a website.I got this idea from The Odin Project.
 
-[Visit website](https://shubha360.github.io/rock-paper-scissors/)
+[Visit website](https://shubha360.github.io/rock_paper_scissors-top/)
 
 ## Icon attributions
 
